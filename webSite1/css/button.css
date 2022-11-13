@@ -1,0 +1,13 @@
+.learn-button, .register-button {
+  background-color: #593C8F;
+  text-decoration: none;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 20px;
+  font-size: 30px;
+  border: 3px solid white;
+}
+.learn-button:hover, .register-button:hover {
+  background-color: white;
+  color: #593C8F;
+}/*# sourceMappingURL=button.css.map */

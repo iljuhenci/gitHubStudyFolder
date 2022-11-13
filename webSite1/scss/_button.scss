@@ -1,0 +1,38 @@
+
+%button {
+    background-color: $btn-color;
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-size: 30px;
+    border: 3px solid white;
+    transition: 0.3s;
+    
+
+    &:hover {
+        background-color: white;
+        color: $btn-color;
+        border: 3px solid $btn-color;
+    }
+}
+
+.register-button {
+    @extend %button;
+}
+.learn-button {
+    @extend %button;
+}
+
+.navigation-button {
+    text-decoration: none;
+    background-color: $menu-btn-color;
+    font-family: $button-font;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: lighten($menu-btn-color, 10%);
+    }
+}

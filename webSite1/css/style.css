@@ -1,0 +1,140 @@
+.learn-button, .register-button {
+  background-color: #593C8F;
+  text-decoration: none;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 20px;
+  font-size: 30px;
+  border: 3px solid white;
+  transition: 0.3s;
+}
+.learn-button:hover, .register-button:hover {
+  background-color: white;
+  color: #593C8F;
+  border: 3px solid #593C8F;
+}
+
+.navigation-button {
+  text-decoration: none;
+  background-color: #EB717E;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+.navigation-button:hover {
+  background-color: #f19ea7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  margin-top: 30px;
+  color: #171738;
+}
+
+body {
+  background-color: #8EF9F3;
+}
+
+.top-menu {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  min-height: 95px;
+  background-color: #8EF9F3;
+  border-bottom: 3px solid #EB717E;
+  color: #171738;
+}
+.top-menu nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  min-width: 200px;
+}
+.top-menu nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  list-style-type: none;
+}
+
+.main-container {
+  background-color: #c8fcf9;
+  height: auto;
+}
+.main-container div {
+  max-width: 1013px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFD9CE;
+}
+.main-container div span {
+  display: inline-block;
+  margin: 80px;
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+  color: #171738;
+}
+.main-container div .photo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-container div .photo-container .photos {
+  vertical-align: top;
+}
+.main-container div .photo-container .photos .photo {
+  margin: 20px;
+  height: 200px;
+  border-radius: 100px;
+}
+.main-container div .photo-container .photos .employees-position {
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-family: "Dancing Script", cursive;
+  text-shadow: 2px 3px purple;
+}
+.main-container div .photo-container .photos .employees-name {
+  font-size: 25px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.bottom-menu {
+  background-color: #8EF9F3;
+  min-height: 100px;
+  border-top: 3px solid #EB717E;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.bottom-menu address {
+  font-size: 20px;
+  margin: 20px 10px;
+}
+
+.button-container ul {
+  display: flex;
+}
+.button-container ul li {
+  list-style-type: none;
+  margin: 40px 80px;
+}
+.button-container ul li a {
+  background-color: #593C8F;
+  text-decoration: none;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 20px;
+  font-size: 30px;
+  border: 3px solid white;
+}/*# sourceMappingURL=style.css.map */
